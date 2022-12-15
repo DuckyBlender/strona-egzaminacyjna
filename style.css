@@ -1,22 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
-
 .header {
     background-color: #C0C0C0;
-    margin: 10px;
-    text-align: center;
-    /*height: 100px;*/
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
 }
 
 .logo {
-    width: 400px;
+    width:400px;
+    display: flex;
 }
 
 .menu {
     color: #555555;
     width: 600px;
-    margin: 50px;
     font-size: 200%;
     font-style: normal;
     /* Align the links to the top */
@@ -36,18 +33,16 @@
     max-width: 1000px;
 }
 
-.main {
+.body {
     
 }
 
 .footer {
     text-align: right;
     background-color: #C0C0C0;
-    height: 100px;
     padding: 0.5rem 0.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 html {
