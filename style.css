@@ -3,33 +3,32 @@
 /* Header at the top of the page, has a menu */
 .header {
     background-color: #7e7e7e85;
-    color: red;
-    font-family: 'Lexend', sans-serif;
-}
-
-.logo {
-    color: white;
-    font-family: 'Lexend', sans-serif;
+    margin: 1rem;
+    text-align: center;
 }
 
 .menu {
     background-color: #7e7e7e85;
-    color: white;
-    font-family: 'Lexend', sans-serif;
-    /* Max width of the menu */
-    max-width: 60%;
-    /* Center the menu */
-    margin: auto;
-    /* Make the menu a flexbox */
-    display: flex;
-    /* Make the menu items align to the center */
-    align-items: center;
-    /* Make the menu align to the top */
-    justify-content: flex-start;
-    /* Make the menu items have a space between them */
-    justify-content: space-between;
+    color:rgba(218, 218, 218, 0.521);
+    /* Align the text to the top */
+
 }
 
+.banner {
+    height: 200px;
+}
+
+.content {
+    color:rgba(61, 61, 61, 0.521);
+    text-align: center;
+    max-width: 600px;
+}
+
+.footer {
+    text-align: right;
+    background-color: dimgray;
+    padding: 0.5rem 0.5rem;
+}
 
 html {
     background-color: rgba(126, 126, 126, 0.521);
